@@ -1,0 +1,81 @@
+<html>
+<head>
+    <!-- CSS code -->
+    <style>
+            /* Import the Concert One font from google */
+             @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+             body {
+                font-family: 'Concert One', cursive;
+                color: #f7feff;
+                font-size: 5px;
+                width: 400px;
+                height: 400px;
+             }
+            /* Align everything center */
+            .firstDiv{
+            text-align: center;
+            }
+             .search{
+               text-align: center;
+             }
+            /* Button formatting*/
+            .button{
+              background: grey;
+              border: 1px solid silver;
+              display: inline-block;
+              align-items: center;
+              cursor: pointer;
+            }
+            /* Format text for button*/
+             .summarize{
+                height: 5px;
+                margin-top: 0px;
+                font-size: 15px;
+             }
+             /* Format the textbox/scroll area for output*/
+             .summary{
+                margin-top: 30px;
+                border: 1px solid silver;
+                align-items: center;
+                display: inline-block;
+                font-size: 14px;
+                color: black;
+                background-color: grey;
+                width: 370px;
+                height: 290px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+             }
+
+
+
+
+
+
+    </style>
+
+
+</head>
+<!-- Set background colour -->
+<body style="background-color: #1f1f1f">
+<!-- Main div to contain everything -->
+<div class="firstDiv">
+    <!-- Search Bar -->
+    <div class="search">
+        <button class="button">
+            <h1 class="summarize">Summarize</h1>
+        </button>
+    </div>
+    <!-- Div for text to appear -->
+    <div class="scroll">
+        <h1 class="summary">Summary Will Appear Here</h1>
+    </div>
+
+</div>
+
+<!-- Run the JS code -->
+<script src="jaSc.js"></script>
+
+</body>
+</html>

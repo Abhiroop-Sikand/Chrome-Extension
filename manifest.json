@@ -1,0 +1,15 @@
+{
+  "/Comment": "Manifest for chrome extension, tabs permissions required to get current tabs url automatically",
+  "name": "Summary Extension",
+  "version": "0.0.1",
+  "description": "make a summary",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs"
+  ],  "action": {
+      "default_popup": "ui.html"
+
+    }
+
+
+}
